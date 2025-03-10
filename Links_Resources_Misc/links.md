@@ -37,4 +37,33 @@ Network Conf Stig Checker
 Hurricane Electric http://he.net
 
 - RasberryPi Setup IPv6 Tunnel
-RaspberryPi: https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=88054[1
+RaspberryPi: https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=880541
+
+Palo Alto provides a guide on how DNS sinkholing works here: https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-admin/threat-prevention/use-dns-queries-to-identify-infected-hosts-on-the-network/dns-sinkholingSimilarly,
+
+Cisco provides similar capabilities on ASA with FirePOWER module described here:https://www.cisco.com/c/en/us/support/docs/security/asa-5500-x-firepower-services/213284-configure-the-domain-based-security-inte.html#:~:text=The%20sinkhole%20can%20be%20configured,IP%20address%20of%20sinkhole%20server.
+
+#### Firewall Rule ANalysis Tools
+- 1 https://www.algosec.com/
+- 2 https://tufin.com/
+
+### DNS anamolous
+https://github.com/jbaggs/anomalous-dns
+
+### Kube Sidecar and network vis
+https://corelight.com/blog/deeper-visibility-into-kubernetes-environments-with-network-monitoring
+https://corelight.com/blog/sidecars-for-network-monitoring
+
+
+###JA3 Suricata: 
+https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/inspecting-encrypted-network-traffic-with-ja3/****
+
+### Zeek Analysis Toolkit, 
+https://supercowpowers.github.io/zat/
+
+####  Anomaly based IDS using ML
+ https://medium.com/hootsuite-engineering/anomaly-based-intrusion-detection-system-using-machine-learning-a18e88694ce0
+
+
+ #### Insights on how to use Zeek to detect MITRE ATT&CK techniques:
+ https://www.giac.org/paper/gcia/13981/methods-employ-zeek-detecting-mitre-att-ck-techniques/177454
